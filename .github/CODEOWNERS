@@ -5,7 +5,7 @@
 #
 # ESTÁNDAR ÚNICO: idéntico en todos los repos gobernados de finvix-platform, sin
 # importar lenguaje ni alcance. No se edita por repo — se gestiona como código en
-# finvix-ops (codeowners/CODEOWNERS.platform) y lo aplica Terraform.
+# finvix-governance/github (codeowners/CODEOWNERS.platform) y lo aplica Terraform.
 # Docs: https://docs.github.com/articles/about-code-owners
 #
 # NOTA platform: usa @finvix-platform/leads (NO @finvix/leads ni @finvix-governance/leads).
