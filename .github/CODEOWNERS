@@ -10,9 +10,10 @@
 #
 # NOTA platform: usa @finvix-platform/leads (NO @finvix/leads ni @finvix-governance/leads).
 # El team Leads de finvix-platform es org-scoped; un owner de otra org daría
-# "Unknown owner". Advisory por ahora (require_code_owner_review = false en los
-# rulesets platform); fija el estándar de consistencia entre los 4 repos.
+# "Unknown owner". La revisión del dueño es BLOQUEANTE: los rulesets de esta
+# organización piden require_code_owner_review, así que un PR no se mergea sin la
+# aprobación de un Lead. Es el mismo estándar en los 8 repos gobernados de la org.
 # ─────────────────────────────────────────────────────────────────────────
 
-# Todo el repositorio → revisión recomendada de Leads
+# Todo el repositorio → revisión requerida de Leads
 *                                       @finvix-platform/leads
