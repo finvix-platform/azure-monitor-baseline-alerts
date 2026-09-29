@@ -1,19 +1,18 @@
 # CODEOWNERS — Estándar de gobernanza Finvix  ·  org-baseline (R11)  ·  finvix-platform
 # ─────────────────────────────────────────────────────────────────────────
-# Política: toda Pull Request a `develop` y `master` requiere la aprobación de
-# un miembro de @finvix-platform/leads (Jacobo · Pedro · Cristián).
+# Política: toda Pull Request a una rama larga del repositorio —`master`, y `develop`
+# donde el repo es GitFlow— pide la revisión de @finvix-platform/leads. La pide, no
+# la exige: los rulesets de esta organización no llevan `require_code_owner_review`,
+# porque sus PRs los abren los propios Leads y GitHub no deja aprobar un PR propio.
 #
 # ESTÁNDAR ÚNICO: idéntico en todos los repos gobernados de finvix-platform, sin
 # importar lenguaje ni alcance. No se edita por repo — se gestiona como código en
 # finvix-governance/github (codeowners/CODEOWNERS.platform) y lo aplica Terraform.
 # Docs: https://docs.github.com/articles/about-code-owners
 #
-# NOTA platform: usa @finvix-platform/leads (NO @finvix/leads ni @finvix-governance/leads).
-# El team Leads de finvix-platform es org-scoped; un owner de otra org daría
-# "Unknown owner". La revisión del dueño es BLOQUEANTE: los rulesets de esta
-# organización piden require_code_owner_review, así que un PR no se mergea sin la
-# aprobación de un Lead. Es el mismo estándar en los 8 repos gobernados de la org.
+# El owner es el team Leads de ESTA org: uno de otra organización da "Unknown owner".
+# Por eso hay un canónico por org; el team es la diferencia entre ellos.
 # ─────────────────────────────────────────────────────────────────────────
 
-# Todo el repositorio → revisión requerida de Leads
+# Todo el repositorio → revisión de Leads
 *                                       @finvix-platform/leads
