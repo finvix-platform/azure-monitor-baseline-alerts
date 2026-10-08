@@ -18,3 +18,14 @@
 
 # Todo el repositorio → revisión de Leads
 *                                       @finvix-platform/leads
+
+# Registro del arnés y documentación → sin dueño: no piden la revisión de Leads. La aprobación
+# que exija el ruleset de la rama sigue igual. Una línea sin owner deja la ruta sin dueño, y gana
+# la última línea que casa, así que estas van después de `*`.
+/feature_list.json
+/progress/
+/evidence/
+/docs/
+
+# Los requisitos EARS viven en docs/specs/ y son el contrato → vuelven a Leads.
+/docs/specs/                            @finvix-platform/leads
