@@ -5,11 +5,9 @@
 # la exige: los rulesets de esta organización no llevan `require_code_owner_review`,
 # porque sus PRs los abren los propios Leads y GitHub no deja aprobar un PR propio.
 #
-# ESTÁNDAR ÚNICO: esta base es idéntica en todos los repos gobernados de
-# finvix-platform, sin importar lenguaje ni alcance. No se edita por repo — se
-# gestiona como código en finvix-governance/github (codeowners/CODEOWNERS.platform)
-# y lo aplica Terraform. Un repo que necesita otro owner para un fichero lo declara
-# allí como delta, que se añade al final de este archivo.
+# ESTÁNDAR ÚNICO: esta base es la de todos los repos de finvix-platform, sin importar
+# lenguaje ni alcance. Un repo que necesita otro owner para un fichero lo declara como
+# delta en finvix-governance/github, y se añade al final de este archivo.
 # Docs: https://docs.github.com/articles/about-code-owners
 #
 # El owner es el team Leads de ESTA org: uno de otra organización da "Unknown owner".
