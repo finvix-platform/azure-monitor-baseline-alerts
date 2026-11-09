@@ -21,6 +21,7 @@
 # que exija el ruleset de la rama sigue igual. Una línea sin owner deja la ruta sin dueño, y gana
 # la última línea que casa, así que estas van después de `*`.
 /feature_list.json
+/registry/
 /progress/
 /evidence/
 /docs/
